@@ -106,7 +106,7 @@ function Dashboard() {
     // Candlestick width
     const candlestickWidth = width / chartData.candlestick_chart.data.length / 1.8;
 
-    // Draw High-Low lines (wicks)
+    // Draw wicks
     svg.selectAll('line.wick')
       .data(chartData.candlestick_chart.data)
       .enter()
@@ -118,7 +118,7 @@ function Dashboard() {
       .attr('y2', (d: CandlestickData) => y(d.high))
       .attr('stroke', 'black');
 
-    // Draw Open-Close rectangles (candles)
+    // Draw candle
     svg.selectAll('rect.candle')
       .data(chartData.candlestick_chart.data)
       .enter()
@@ -213,7 +213,9 @@ function Dashboard() {
         {/* Candlestick Chart */}
         <div>
           <h2>Candlestick Chart</h2>
-          <div ref={chartRef}></div> {/* This div will hold the candlestick chart rendered by D3 */}
+            <div className="chart-container">
+              <div ref={chartRef}></div>
+            </div>
         </div>
       </div>
     </div>
