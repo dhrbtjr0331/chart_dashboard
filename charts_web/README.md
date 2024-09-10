@@ -5,6 +5,7 @@
 ### 1. Backend:
 a) Install the backend dependencies using the following command in terminal:
 ```bash
+cd mybackend
 pip install -r requirements.txt
 ```
 b) Run the Django server by following this command in terminal:
@@ -21,7 +22,7 @@ http://localhost:8000/api/charts
 ```
 
 ### 2. Frontend:
-a) Install the following dependencies using the commands below:
+a) Install the following dependencies using the commands below (Make sure you are in the charts_web directory):
 ```bash
 npm install
 ```
