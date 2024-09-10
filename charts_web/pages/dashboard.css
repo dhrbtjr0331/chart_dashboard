@@ -27,3 +27,8 @@ h1, h2 {
   font-size: 14px;
 }
 
+.chart-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  margin: 20px 0; /* Optional: Add some vertical space */
+}
