@@ -34,6 +34,8 @@ c) The frontend will be available at:
 The frontend will be available at http://localhost:3000/dashboard
 ```
 
+
+
 ## Libraries:
 ### Frontend:
 1. Recharts for Line, Bar, and Pie charts
@@ -42,6 +44,8 @@ The frontend will be available at http://localhost:3000/dashboard
 ### Backend:
 1. Django REST Framework for serving API data
 2. datetime library for generating random candlestick data
+
+
 
 ## Brief Explanation on the design of project:
 
