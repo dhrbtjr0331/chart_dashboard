@@ -49,7 +49,7 @@ The frontend will be available at http://localhost:3000/dashboard
 
 ## Brief Explanation on the design of project:
 
-- The project uses a clear separation between the frontend (React/TypeScript) and backend (Django REST API). The frontend fetches data from the API, ensuring flexibility and scalability for future enhancements.
+- The project uses a clear separation between the frontend (React/TypeScript) and backend (Django REST API). The frontend fetches data from the API, which will provide flexibility when in need of scaling.
 
 - Data is fetched dynamically using the Fetch API within useEffect, allowing real-time data to populate the charts. Error handling is included to provide feedback in case of network failures.
 
