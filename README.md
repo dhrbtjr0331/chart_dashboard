@@ -1,6 +1,8 @@
 # Charts Dashboard Project
 #### This project is a full-stack web application that displays multiple charts (Candlestick, Line, Bar, and Pie) on a dashboard. It uses Django for the backend (API) and Next.js with TypeScript for the frontend.
 
+![Alt text](index.png)
+
 ## Instructions on how to set up and run the app:
 ### 1. Backend:
 a) Install the backend dependencies using the following command in terminal:
