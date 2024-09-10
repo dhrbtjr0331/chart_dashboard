@@ -5,6 +5,7 @@
 ### 1. Backend:
 a) Install the backend dependencies using the following command in terminal:
 ```bash
+cd charts_web
 cd mybackend
 pip install -r requirements.txt
 ```
