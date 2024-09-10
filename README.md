@@ -32,7 +32,8 @@ b) Then, run the Next.js development server with:
 npm run dev
 ```
 c) The frontend will be available at:
-```bash
+```bash![Screen Shot 2024-09-10 at 3 00 10 AM](https://github.com/user-attachments/assets/d31b52d9-aa84-4007-b34a-8c22958e3911)
+
 The frontend will be available at http://localhost:3000/
 ```
 
