@@ -32,7 +32,7 @@ npm run dev
 ```
 c) The frontend will be available at:
 ```bash
-The frontend will be available at http://localhost:3000/dashboard
+The frontend will be available at http://localhost:3000/
 ```
 
 
