@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 b) Run the Django server by following this command in terminal:
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 c) Django server will be running at
 ```bash
